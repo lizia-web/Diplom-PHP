@@ -1,0 +1,88 @@
+.collection-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.collection-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2a2a2a;
+    margin: 8px 0;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 4px;
+}
+
+.collection-list li a {
+    color: #ff7fa5;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 12px;
+    user-select: none;
+}
+
+.delete-btn:hover {
+    color: #ff4c4c;
+}
+
+
+
+
+.container{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    /*gap: 20px;*/
+    /*min-height: 100vh;*/
+}
+
+.content {
+    margin-top: 100px;
+    height: fit-content(1fr);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+}
+
+h2 {
+    padding: 10px;
+    /*background-color: red;*/
+    font-family: Lumberjack;
+    font-size: 22px;
+    font-weight: inherit;
+    color: #ff7fa5;
+    text-align: center;
+    justify-content: center;
+}
+
+.collections {
+    /*background-color: blue;*/
+    line-height: 2;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.collections ul {
+    list-style: none;
+}
+
+.collections a {
+    text-decoration: none;
+    color: #ff7fa5;
+    transition: color 0.3s ease;
+}
+
+.collections a:hover {
+    color: white;
+    transition: color 0.3s ease;
+
+}

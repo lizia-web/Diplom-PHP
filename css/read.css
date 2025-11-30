@@ -1,0 +1,121 @@
+.container{
+
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    /*gap: 20px;*/
+    /*min-height: 100vh;*/
+}
+
+
+.fanf {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 95%;
+    height: fit-content(1fr);
+    background-color: #292929;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+.fanf p{
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.4s color;
+}
+
+a:hover {
+    color: #ff7fa5;
+}
+
+h1 {
+    font-family: Lumberjack;
+    font-size: 24px;
+    font-weight: inherit;
+    color: #ff7fa5;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.change-button-header {
+    margin: 0 auto;
+    /*background-color: red;*/
+    width: 99%;
+}
+
+.change-button-header button {
+    background-color: #ff7fa5;
+    padding: 10px 15px;
+    color: #1d1d1d;
+    border-radius: 5px;
+    font-family: Lumberjack;
+    font-size: 17px;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    transition: 0.5s background-color, 0.5s color;
+    margin-bottom: 10px;
+}
+
+.change-button-header button:hover {
+    background-color: rgba(255, 127, 165, 0.3);
+    color: #ff7fa5;
+}
+
+hr {
+    width: 95%;
+    background-color: #ff7fa5;
+}
+
+.content-text {
+    /*background-color: red;*/
+    width: 95%;
+    text-align: left;
+    font-size: 19px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    /*white-space: pre-wrap;*/
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 2;
+}
+
+.change-button {
+    margin: 0 auto;
+    /*background-color: red;*/
+    width: 95%;
+}
+
+.change-button button{
+    background-color: #ff7fa5;
+    padding: 10px 15px;
+    color: #1d1d1d;
+    border-radius: 5px;
+    font-family: Lumberjack;
+    font-size: 17px;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    transition: 0.5s background-color, 0.5s color;
+    margin-bottom: 30px;
+}
+
+.change-button button:hover {
+    background-color: rgba(255, 127, 165, 0.3);
+    color: #ff7fa5;
+}
+

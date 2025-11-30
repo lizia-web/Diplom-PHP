@@ -1,0 +1,90 @@
+.container{
+
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    /*gap: 20px;*/
+    /*min-height: 100vh;*/
+}
+
+.content {
+    display: grid;
+    /*grid-template-columns: auto auto auto auto auto;*/
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+    /*grid-template-columns: 20% 20% 20% 20% 20%;*/
+    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+    /*gap: 10px;*/
+    /*background-color: deepskyblue;*/
+    background-color: #1d1d1d;
+    /*padding: 15px;*/
+}
+
+.title{
+    font-family: Lumberjack;
+    font-size: 22px;
+    font-weight: inherit;
+    color: #ff7fa5;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    background-color: #1d1d1d;
+    /*padding: 5px;*/
+    /*background-color: red;*/
+}
+
+.content-columns {
+    font-family: Lumberjack;
+    display: grid;
+    /*grid-template-columns: auto auto auto auto auto;*/
+    grid-template-columns: repeat(5, auto);
+    /*grid-template-columns: 20% 20% 20% 20% 20%;*/
+    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+    gap: 10px;
+    /*background-color: deepskyblue;*/
+    background-color: #1d1d1d;
+    padding: 15px;
+}
+
+.column {
+    /*background-color: pink;*/
+    /*width: 200px;*/
+    /*height: 350px;*/
+    text-align: center;
+    transition: background-color 0.3s;
+    padding: 15px;
+}
+
+.column img {
+    width: 200px;
+    height: 350px;
+
+}
+
+.content .column:hover {
+    /*cursor: pointer;*/
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    /*transition: background-color 0.3s ease;*/
+}
+
+.image-alt {
+    font-family: Lumberjack;
+    font-weight: inherit;
+    margin-top: 25px;
+    font-size: 18px;
+    color: #ff7fa5;
+}
+
+/*.fanfics {*/
+/*    margin-top: -15px;*/
+/*}*/
+
+/*.footer {*/
+/*    margin-top: -25px;*/
+/*}*/
+
+
+
+

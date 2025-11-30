@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    /*gap: 20px;*/
+    /*min-height: 100vh;*/
+}
+
+.users-table {
+    /*background-color: red;*/
+    width: 90%;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: Lumberjack;
+    font-size: 24px;
+    font-weight: inherit;
+    color: #ff7fa5;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.users-table table {
+    width: 80%;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.3);
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.users-table table th {
+    color: #ff7fa5;
+    font-size: 20px;
+}
+
+.users-table table td {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.users-table select {
+    background-color: rgba(0,0,0,0.5);
+    color: #ff7fa5;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+
+.users-table select option {
+    background-color: #1d1d1d;
+    color: #ff7fa5;
+}

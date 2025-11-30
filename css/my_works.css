@@ -1,0 +1,71 @@
+.container{
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    /*gap: 20px;*/
+    /*min-height: 100vh;*/
+}
+
+.content {
+    margin-top: 100px;
+    display: grid;
+    /*grid-template-columns: auto auto auto auto auto;*/
+    grid-template-rows: 1fr ;
+    grid-template-columns: auto;
+    /*grid-template-columns: 20% 20% 20% 20% 20%;*/
+    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+    /*gap: 10px;*/
+    /*background-color: deepskyblue;*/
+    background-color: #1d1d1d;
+    /*padding: 15px;*/
+}
+
+.title{
+    font-family: Lumberjack;
+    font-size: 22px;
+    font-weight: inherit;
+    color: #ff7fa5;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    /*padding: 5px;*/
+    /*background-color: red;*/
+}
+
+.fanfics {
+    margin-bottom: 25px;
+}
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+
+.work-tabs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    /*margin-bottom: 20px;*/
+}
+
+.tab-button {
+    background-color: #ff7fa5;
+    margin-right: 5px;
+    padding: 10px 15px;
+    color: #1d1d1d;
+    border-radius: 5px;
+    font-family: Lumberjack;
+    font-size: 17px;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    transition: 0.4s background-color, 0.4s color;
+}
+
+.tab-button:hover {
+    background-color: rgba(255, 127, 165, 0.3);
+    color: #ff7fa5;
+}

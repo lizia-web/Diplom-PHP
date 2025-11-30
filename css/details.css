@@ -1,0 +1,13 @@
+.container{
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    /*gap: 20px;*/
+    /*min-height: 100vh;*/
+}
+
+.content {
+    min-height: 500px;
+}

@@ -1,0 +1,70 @@
+.container{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    /*gap: 20px;*/
+    /*min-height: 100vh;*/
+}
+
+.content-p {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: Lumberjack;
+    font-size: 22px;
+    font-weight: inherit;
+    color: #ff7fa5;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.authors-list {
+    /*background-color: red;*/
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.author-card {
+    /*background-color: red;*/
+    position: relative;
+    /*text-align: center;*/
+    width: 90%;
+
+
+}
+
+.author-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.author-card .name {
+    color: #ff7fa5;
+    position: absolute;
+    top: 0;
+    left: 65px;
+    /*right: 0;*/
+    font-size: 19px;
+}
+
+.author-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+
+}
+
+

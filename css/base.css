@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Lumberjack';
+    src: url('../fonts/Lumberjack.ttf'),
+    url('../fonts/Lumberjack.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    background-image: url("../img/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: #ff7fa5;
+    color: black;
+}
+::placeholder {
+    background-color: #ff7fa5;
+    color: black;
+}
+
+a:visited {
+    color: white;
+}
+
+.container{
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 1fr;
+    /*gap: 20px;*/
+    /*min-height: 100vh;*/
+}
+
+.content {
+    margin-top: 100px;
+    display: grid;
+    /*grid-template-columns: auto auto auto auto auto;*/
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+    /*grid-template-columns: 20% 20% 20% 20% 20%;*/
+    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+    gap: 10px;
+    /*background-color: deepskyblue;*/
+    background-color: #1d1d1d;
+    /*padding: 15px;*/
+}
